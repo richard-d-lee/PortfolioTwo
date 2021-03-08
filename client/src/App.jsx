@@ -15,7 +15,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div onClick={() => {console.log('hello')}}>
+      <div>
         <Banner />
         <Landing />
         <Resume />
