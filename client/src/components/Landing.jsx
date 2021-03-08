@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MyCard from './MyCard.jsx';
-
+import About from './About.jsx';
 
 function Landing(props) {
+  if (props.page === 'about') {
+    return <About />
+  }
   return (
     <div className="landing">
-      <MyCard link="About Me"/>
+      <MyCard link="About Me"handler={props.about}/>
       <MyCard link="Projects"/>
       <MyCard link="Artwork"/>
     </ div>
