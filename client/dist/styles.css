@@ -31,6 +31,13 @@
   flex-direction: column;
 }
 
+.footer:hover {
+  background-color: white;
+  color: black;
+  padding-top: 47px;
+  border-bottom: solid 1px black;
+}
+
 .full-card {
   margin: 30px;
   width: 36%;
