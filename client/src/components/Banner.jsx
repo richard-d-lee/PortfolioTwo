@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 function Banner(props) {
   return (
-    <div className="banner">
+    <div className="banner" onClick={props.return}>
       <center>
-        <label id="name">Richard Lee | Denver, CO | Open to remote work or relocation.</label>
+        <label id="name" onClick={props.return}>Richard Lee | Denver, CO | Open to remote work or relocation.</label>
       </center>
       <center>
-        <label>Node.js, React, SQL and no-SQL, AWS</label>
+        <label id="name" onClick={props.return}>Node.js, React, SQL and no-SQL, AWS</label>
       </center>
     </div>
   )
