@@ -13,16 +13,25 @@ class App extends React.Component {
     };
     this.aboutHandler = this.aboutHandler.bind(this)
     this.returnHome = this.returnHome.bind(this)
+    this.projectsHandler = this.projectsHandler.bind(this)
+    this.artworkHandler = this.artworkHandler.bind(this)
   }
 
-  aboutHandler() {this.setState({page: 'about'})}
-  returnHome() {this.setState({page: 'landing'})}
+  aboutHandler() { this.setState({ page: 'about' }) }
+  projectsHandler() { this.setState({ page: 'projects' }) }
+  returnHome() { this.setState({ page: 'landing' }) }
+  artworkHandler() { this.setState({ page: 'artwork' }) }
 
   render() {
     return (
       <div>
-        <Banner return={this.returnHome}/>
-        <Landing about={this.aboutHandler} page={this.state.page}/>
+        <Banner return={this.returnHome} />
+        <Landing
+          about={this.aboutHandler}
+          projects={this.projectsHandler}
+          artwork={this.artworkHandler}
+          page={this.state.page}
+        />
         <Resume />
         <Footer />
       </div>
