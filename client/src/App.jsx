@@ -24,7 +24,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id='full-app'>
         <Banner return={this.returnHome} />
         <Landing
           about={this.aboutHandler}
