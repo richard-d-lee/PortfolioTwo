@@ -19,7 +19,7 @@ function About(props) {
                 />
                 <Carousel.Caption>
                   <h3>Me With My Dog</h3>
-                  <p>Junebug is fiercely loyal and incredibly loving. I'm lucky to have such a tough mutt at my side.</p>
+                  <p>Junebug is fiercely loyal and incredibly loving. I'm lucky to have such a tough mutt in my corner.</p>
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
