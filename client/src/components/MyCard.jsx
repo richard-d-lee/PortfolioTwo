@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import gif from './giphy.gif'
+import gif from './images/giphy.gif'
 
 function MyCard(props) {
   return (
