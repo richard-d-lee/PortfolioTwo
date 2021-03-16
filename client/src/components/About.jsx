@@ -43,14 +43,15 @@ function About(props) {
 
                 <Carousel.Caption>
                   <h3>Steamboat Springs</h3>
-                  <p>Jesse and I love to travel. Here is a photo she took eating at Taco Cabo in Steamboat Springs.</p>
+                  <p>Jesse and I love to travel. She took this photo while we were eating well at Taco Cabo in Steamboat Springs.</p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </div>
         </center>
         <div className="sites">
-
+          <div id="sites-text"></div>
+          <div id="sites-buttons"></div>
         </div>
       </div>
       <div className="bio">

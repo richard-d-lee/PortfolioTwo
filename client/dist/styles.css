@@ -105,8 +105,23 @@
 }
 
 .sites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   height: 100px;
   width: 600px;
-  border: solid 1px red;
   margin-bottom: 10px;
+}
+
+#sites-text {
+  margin: 5px;
+  width: 155px;
+  height: 88px;
+  border: 1px solid red;
+}
+#sites-buttons {
+  margin: 5px;
+  width: 255px;
+  height: 88px;
+  border: 1px solid red;
 }
