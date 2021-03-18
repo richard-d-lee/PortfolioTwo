@@ -50,7 +50,11 @@ function About(props) {
           </div>
         </center>
         <div className="sites">
-          <div id="sites-text"></div>
+          <div id="sites-text">
+            <center>
+              <label>A few of my favorite websites.</label>
+            </center>
+          </div>
           <div id="sites-buttons"></div>
         </div>
       </div>
