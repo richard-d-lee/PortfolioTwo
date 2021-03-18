@@ -55,7 +55,9 @@ function About(props) {
               <label>A few of my favorite websites.</label>
             </center>
           </div>
-          <div id="sites-buttons"></div>
+          <div id="sites-buttons">
+            {/* website logos here */}
+          </div>
         </div>
       </div>
       <div className="bio">
