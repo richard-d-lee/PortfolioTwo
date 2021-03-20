@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel'
-import imageOne from './images/MEnJB.jpg'
-import imageTwo from './images/MEnJS.jpg'
-import imageThree from './images/Food.jpg'
+import Carousel from 'react-bootstrap/Carousel';
+import imageOne from './images/MEnJB.jpg';
+import imageTwo from './images/MEnJS.jpg';
+import imageThree from './images/Food.jpg';
+import imageThree from './images/Food.jpg';
 
 function About(props) {
   return (
@@ -56,6 +57,7 @@ function About(props) {
             </center>
           </div>
           <div id="sites-buttons">
+            
             {/* website logos here */}
           </div>
         </div>
