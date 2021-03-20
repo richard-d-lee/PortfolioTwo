@@ -3,7 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import imageOne from './images/MEnJB.jpg';
 import imageTwo from './images/MEnJS.jpg';
 import imageThree from './images/Food.jpg';
-import imageThree from './images/Food.jpg';
+import duo from './images/duo.png';
+import reddit from './images/reddit.png';
+import github from './images/github.png';
 
 function About(props) {
   return (
@@ -57,14 +59,21 @@ function About(props) {
             </center>
           </div>
           <div id="sites-buttons">
-            
-            {/* website logos here */}
+            <a target="_blank" rel="noopener noreferrer" href="https://www.duolingo.com/register">
+              <img id='duo' src={duo} />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com">
+              <img id='reddit' src={reddit} />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.github.com">
+              <img id='github' src={github} />
+            </a>
           </div>
         </div>
       </div>
       <div className="bio">
       </div>
-    </div>
+    </div >
   )
 }
 
