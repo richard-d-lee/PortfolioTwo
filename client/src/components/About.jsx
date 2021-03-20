@@ -21,7 +21,7 @@ function About(props) {
                   alt="First slide"
                 />
                 <Carousel.Caption>
-                  <h3>Me With My Dog</h3>
+                  <h3>Me and the Dog</h3>
                   <p>Junebug is fiercely loyal and incredibly loving. I'm lucky to have such a tough mutt in my corner.</p>
                 </Carousel.Caption>
               </Carousel.Item>
@@ -72,6 +72,20 @@ function About(props) {
         </div>
       </div>
       <div className="bio">
+        <p id="bio-text">
+          <center>
+            If talking about yourself is tacky, what does that say for someone who creates a website about themself?
+          </center>
+          <br />
+          <center>
+            
+            Anyway, My name is Richard Lee, but my friends and family call me Buz. I am a full stack Javascript developer, occasional artist, and reluctant media producer. I love developing accessible web applications and making content which reflects my desire to bring people together. I have many goals as an engineer and can always use an extra eye on my progress. I'm always happy to help and receive help.
+          </center>
+          <br />
+          <center>
+            Please do not hesitate to reach out with opportunities or questions using my resume below. Thank you for stopping by!
+          </center>
+        </p>
       </div>
     </div >
   )
