@@ -129,20 +129,41 @@
   flex-direction: row;
 }
 
+.projects {
+  background-image: url('https://i.imgur.com/5UJcfuc.jpg');
+  background-position-y: center;
+  padding: 3px;
+}
+
 #project-description {
-  border: 1px solid red;
+  background-color: white;
+  border-radius: 10px;
   padding: 13px 0px 0px 0px;
-  margin: 0px 0px 0px 125px;
-  height: 270px;
+  margin: 5px 0px 0px 125px;
+  height: 175px;
   width: 694px;
 }
 
+#project-gif {
+  height: 185px;
+}
+
 #project-title {
-  border: 1px solid red;
-  padding: 13px 0px 0px 0px;
-  margin: 107px 125px 0px 125px;
-  height: 54px;
-  width: 120px;
+  background-color: white;
+  border-radius: 10px;
+  height: 90px;
+  width: 278px;
+  margin: 44px 77px 8px 8px;
+}
+
+#project-title:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+#project-title-text {
+  margin: 22px 20px 20px 20px;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #reddit {
