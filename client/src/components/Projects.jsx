@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
+import Project from './Project.jsx';
 
 function Projects(props) {
   return (
     <div className="projects">
-        <label>These are my projects!</label>
+        <Project />
+        <Project />
+        <Project />
     </ div>
   )
 }

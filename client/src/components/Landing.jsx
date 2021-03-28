@@ -11,8 +11,7 @@ function Landing(props) {
     return <Projects />
   } else if (props.page === 'artwork') {
     return <Artwork />
-  } 
-    else if (props.page === 'landing') {
+  } else if (props.page === 'landing') {
     return (
       <div className="landing">
         <MyCard link="About Me" handler={props.about} />

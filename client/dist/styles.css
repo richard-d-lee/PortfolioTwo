@@ -67,7 +67,7 @@
   width: 100px !important;
 }
 #duo {
-  margin: 15px 0px 10px 19px;
+  margin: 15px 0px 10px 21px;
   height: 60px;
   width: 60px;
   cursor: pointer;
@@ -96,7 +96,7 @@
 
 #github {
   margin: 0px 0px 0px 0px;
-  height: 50px;
+  height: 46px;
   width: 50px;
   cursor: pointer;
 }
@@ -123,10 +123,32 @@
   cursor: pointer;
 }
 
+.project {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+#project-description {
+  border: 1px solid red;
+  padding: 13px 0px 0px 0px;
+  margin: 0px 0px 0px 125px;
+  height: 270px;
+  width: 694px;
+}
+
+#project-title {
+  border: 1px solid red;
+  padding: 13px 0px 0px 0px;
+  margin: 107px 125px 0px 125px;
+  height: 54px;
+  width: 120px;
+}
+
 #reddit {
   margin: 0px 21px 0px 14px;
-  height: 54px;
-  width: 66px;
+  height: 52px;
+  width: 62px;
   cursor: pointer;
 }
 

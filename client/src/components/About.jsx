@@ -65,7 +65,7 @@ function About(props) {
             <a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com">
               <img id='reddit' src={reddit} />
             </a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.github.com">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/richard-d-lee">
               <img id='github' src={github} />
             </a>
           </div>
