@@ -143,9 +143,25 @@
   height: 175px;
   width: 694px;
 }
+#project-description:hover {
+  background-color: rgb(243, 243, 243);
+}
 
 #project-gif {
+  border-radius: 10px !important;
   height: 185px;
+}
+
+.project-links {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin: 30px 0px 30px 29px;
+  width: 450px;
+  display: flex;
+  justify-content: space-around;
+}
+.project-links:hover {
+  background-color: rgb(243, 243, 243);
 }
 
 #project-title {
@@ -213,3 +229,9 @@
   background-color: rgb(243, 243, 243);
 }
 
+#youtube {
+  margin: 34px 0px 10px 21px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
