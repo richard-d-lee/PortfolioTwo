@@ -6,6 +6,15 @@
   background-position-y: center;
 }
 
+.artwork {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url('https://i.imgur.com/5UJcfuc.jpg');
+  background-position-y: center;
+}
+
 .banner {
   background-color: black;
   color: white;
@@ -236,8 +245,8 @@
 }
 
 #youtube {
-  margin: 34px 0px 10px 21px;
-  height: 60px;
-  width: 60px;
+  margin: 24px 0px 10px 21px;
+  height: 80px;
+  width: 80px;
   cursor: pointer;
 }
