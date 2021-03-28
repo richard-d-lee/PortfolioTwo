@@ -6,13 +6,27 @@
   background-position-y: center;
 }
 
+.art-card {
+  margin: 27.2px;
+}
+
 .artwork {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 30px 0px 30px 0px;
   justify-content: space-around;
   background-image: url('https://i.imgur.com/5UJcfuc.jpg');
   background-position-y: center;
+}
+
+.artwork-button {
+  font-size: 20px !important;
+  position: absolute;
+  height: 44px;
+  width: 135px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .banner {
@@ -53,6 +67,12 @@
   margin: 40px 20px 20px 20px;
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bottom-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .button {
@@ -242,6 +262,12 @@
 }
 #sites-buttons:hover {
   background-color: rgb(243, 243, 243);
+}
+
+#top-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #youtube {
