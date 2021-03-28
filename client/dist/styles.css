@@ -119,6 +119,12 @@
   border: 1px solid black;
 }
 
+.my-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #name {
   cursor: pointer;
 }
@@ -138,8 +144,8 @@
 #project-description {
   background-color: white;
   border-radius: 10px;
-  padding: 13px 0px 0px 0px;
-  margin: 5px 0px 0px 125px;
+  padding: 17px;
+  margin: 5px 0px 0px 92px;
   height: 175px;
   width: 694px;
 }
@@ -155,7 +161,7 @@
 .project-links {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  margin: 30px 0px 30px 29px;
+  margin: 30px 0px 30px 52px;
   width: 450px;
   display: flex;
   justify-content: space-around;
@@ -177,8 +183,8 @@
 }
 
 #project-title-text {
-  margin: 22px 20px 20px 20px;
-  font-size: 32px;
+  margin: 29px 20px 20px 20px;
+  font-size: 23px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

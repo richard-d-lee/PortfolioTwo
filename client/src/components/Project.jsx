@@ -10,14 +10,16 @@ function Project(props) {
                 <div id="project-title">
                     <p id="project-title-text">
                         <center>
-                            Title
-                    </center>
+                            {props.title}
+                        </center>
                     </p>
                 </div>
                 <img id="project-gif" src={gif}></img>
-                <center>
-                    <label id="project-description">These are my projects!</label>
-                </center>
+                <div id="my-description">
+                    <center>
+                        <label id="project-description">{props.description}</label>
+                    </center>
+                </div>
                 <div className="project-links">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.duolingo.com/register">
                         <img id='youtube' src={youtube} />
