@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import gif from './images/giphy.gif';
 import Button from 'react-bootstrap/Button';
+import Digital from './Digital.jsx';
 
 function Artwork(props) {
-  return (
+  if (props.page === 'digital') {
+    return (<Digital />)
+  } else return (
     <div className="artwork">
       <div id="top-two">
         <Card className="art-card" style={{ backgroundColor: "black", borderRadius: '15px', border: "1px solid white" }}>
@@ -17,7 +20,7 @@ function Artwork(props) {
             Acrylic
         </Button>
         </Card>
-        <Card className="art-card" style={{ backgroundColor: "black", borderRadius: '15px', border: "1px solid white" }}>
+        <Card onClick={props.digital} className="art-card" style={{ backgroundColor: "black", borderRadius: '15px', border: "1px solid white" }}>
           <Card.Img variant="top" className="card-image" src={gif} style={{ width: '14rem', height: 'auto', borderRadius: '15px' }}>
           </Card.Img>
           <Button

@@ -15,12 +15,14 @@ class App extends React.Component {
     this.returnHome = this.returnHome.bind(this)
     this.projectsHandler = this.projectsHandler.bind(this)
     this.artworkHandler = this.artworkHandler.bind(this)
+    this.digitalHandler = this.digitalHandler.bind(this)
   }
 
   aboutHandler() { this.setState({ page: 'about' }) }
   projectsHandler() { this.setState({ page: 'projects' }) }
   returnHome() { this.setState({ page: 'landing' }) }
   artworkHandler() { this.setState({ page: 'artwork' }) }
+  digitalHandler() { this.setState({ page: 'digital' }) }
 
   render() {
     return (
@@ -31,6 +33,7 @@ class App extends React.Component {
           projects={this.projectsHandler}
           artwork={this.artworkHandler}
           page={this.state.page}
+          digital={this.digitalHandler}
         />
         <Resume />
         <Footer />

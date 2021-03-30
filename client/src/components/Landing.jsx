@@ -9,8 +9,8 @@ function Landing(props) {
     return <About />
   } else if (props.page === 'projects') {
     return <Projects />
-  } else if (props.page === 'artwork') {
-    return <Artwork />
+  } else if (props.page === 'artwork' || props.page === 'digital') {
+    return <Artwork digital={props.digital} page={props.page}/>
   } else if (props.page === 'landing') {
     return (
       <div className="landing">
