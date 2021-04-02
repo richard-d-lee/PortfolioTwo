@@ -10,7 +10,7 @@ function Artwork(props) {
   } else return (
     <div className="artwork">
       <div id="top-two">
-        <Card className="art-card" style={{ backgroundColor: "black", borderRadius: '15px', border: "1px solid white" }}>
+        <Card className="one-art-card" style={{ backgroundColor: "black", borderRadius: '15px', border: "1px solid white" }}>
           <Card.Img variant="top" className="card-image" src={gif} style={{ width: '14rem', height: 'auto', borderRadius: '15px' }}>
           </Card.Img>
           <Button

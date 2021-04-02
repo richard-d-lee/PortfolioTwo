@@ -6,8 +6,45 @@
   background-position-y: center;
 }
 
+.about-card {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+
 .art-card {
-  margin: 27.2px;
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
 }
 
 .artwork {
@@ -81,7 +118,7 @@
   height: 73px;
   width: 200px;
   top: 50%;
-  left: 50%;
+  left: 118%;
   transform: translate(-50%, -50%);
 
 }
@@ -89,6 +126,11 @@
   margin: 46px 0px 20px 0px;
   height: 445;
   width: 334px;
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
 }
 
 .d-block {
@@ -158,6 +200,10 @@
   cursor: pointer;
 }
 
+.one-art-card {
+  margin: 27.2px;
+}
+
 .project {
   margin: 15px;
   display: flex;
@@ -168,6 +214,14 @@
   background-image: url('https://i.imgur.com/5UJcfuc.jpg');
   background-position-y: center;
   padding: 3px;
+}
+
+.project-card {
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
 }
 
 #project-description {
