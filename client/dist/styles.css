@@ -94,6 +94,12 @@
   border-radius: 10px;
   height: 621;
   width: 510px;
+  animation: fadeIn ease 3s;
+  animation-delay: 10s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 
 .bio:hover {
@@ -126,11 +132,11 @@
   margin: 46px 0px 20px 0px;
   height: 445;
   width: 334px;
-  animation: fadeIn ease 6s;
-  -webkit-animation: fadeIn ease 6s;
-  -moz-animation: fadeIn ease 6s;
-  -o-animation: fadeIn ease 6s;
-  -ms-animation: fadeIn ease 6s;
+  animation: fadeIn ease 1.5s;
+  -webkit-animation: fadeIn ease 1.5s;
+  -moz-animation: fadeIn ease 1.5s;
+  -o-animation: fadeIn ease 1.5s;
+  -ms-animation: fadeIn ease 1.5s;
 }
 
 .d-block {
@@ -296,6 +302,21 @@
   margin-bottom: 10px;
 }
 
+#sites-buttons {
+  background-color: white;
+  margin: 5px;
+  width: 255px;
+  height: 88px;
+  border-radius: 10px;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+#sites-buttons:hover {
+  background-color: rgb(243, 243, 243);
+}
 #sites-text {
   margin-top: 2px;
   height: 93px;
@@ -303,18 +324,13 @@
   font-size: 30px;
   border-radius: 10px;
   background-color: white;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 #sites-text:hover {
-  background-color: rgb(243, 243, 243);
-}
-#sites-buttons {
-  background-color: white;
-  margin: 5px;
-  width: 255px;
-  height: 88px;
-  border-radius: 10px;
-}
-#sites-buttons:hover {
   background-color: rgb(243, 243, 243);
 }
 

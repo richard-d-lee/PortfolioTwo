@@ -5,7 +5,7 @@ function Projects(props) {
   return (
     <div className="projects">
         <Project 
-          title="Cart Microservice"
+          title="Cart Micro-service"
           description="One of the first major projects I undertook as a software developer was a microservice for an e-commerce website using the Greenfield API. I worked with a team of others to create a cohesive layout which enabled shoppers to add and remove items to a cart, compare their features and prices, and view their outfit and its images in greater detail. Our team worked within the limitations given to us by the business' requirements and produced an exceptional product."
         />
         <Project 

@@ -20,9 +20,6 @@ function Landing(props) {
         <div className="project-card">
           <MyCard link="Projects" handler={props.projects}/>
         </div>
-        <div className="art-card"> 
-          <MyCard link="Artwork"  handler={props.artwork}/>
-        </div>
       </div>
     );
   }
