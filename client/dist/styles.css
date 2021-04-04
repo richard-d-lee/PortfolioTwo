@@ -3,9 +3,9 @@
   flex-direction: row;
   justify-content: space-around;
   background-image: url('https://i.imgur.com/5UJcfuc.jpg');
-  background-position-y: center;
+  background-position-y: -1174px;
+  background-size: cover;
 }
-
 .about-card {
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
@@ -53,7 +53,7 @@
   padding: 30px 0px 30px 0px;
   justify-content: space-around;
   background-image: url('https://i.imgur.com/5UJcfuc.jpg');
-  background-position-y: center;
+  background-size: cover;
 }
 
 .artwork-button {
@@ -179,8 +179,9 @@
 }
 
 .landing {
-  background-image: url('https://i.imgur.com/5UJcfuc.jpg');
-  background-position-y: center;
+  background-image: url('https://i.imgur.com/uOu3ANe.jpeg');
+  background-size: cover;
+  background-position-y: -130px;
   padding: 0px 20% 0px 13.6%;
   display: flex;
   flex-direction: row;

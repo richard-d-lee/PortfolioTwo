@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import MyCard from './MyCard.jsx';
 import About from './About.jsx';
 import Projects from './Projects.jsx';
-import Artwork from './Artwork.jsx';
 
 function Landing(props) {
   if (props.page === 'about') {

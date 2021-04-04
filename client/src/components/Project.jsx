@@ -21,11 +21,11 @@ function Project(props) {
                     </center>
                 </div>
                 <div className="project-links">
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.duolingo.com/register">
+                    <a target="_blank" rel="noopener noreferrer" href={props.youtube}>
                         <img id='youtube' src={youtube} />
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://www.duolingo.com/register">
-                        <img id='youtube' src={github} />
+                    <a target="_blank" rel="noopener noreferrer" href={props.github}>
+                        <img id='github' src={github} />
                     </a>
                 </div>
             </div>
