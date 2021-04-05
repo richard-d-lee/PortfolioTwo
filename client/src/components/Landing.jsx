@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import MyCard from './MyCard.jsx';
 import About from './About.jsx';
 import Projects from './Projects.jsx';
+import gif from './images/giphy.gif';
+import JB from './images/JB.gif'
 
 function Landing(props) {
   if (props.page === 'about') {
@@ -14,10 +16,10 @@ function Landing(props) {
     return (
       <div className="landing">
         <div className="about-card">
-          <MyCard link="About Me" handler={props.about} />
+          <MyCard gif={JB} link="About Me" handler={props.about} />
         </div>
         <div className="project-card">
-          <MyCard link="Projects" handler={props.projects}/>
+          <MyCard gif={gif} link="Projects" handler={props.projects}/>
         </div>
       </div>
     );

@@ -38,34 +38,6 @@
   100% {opacity:1;}
 }
 
-
-.art-card {
-  animation: fadeIn ease 6s;
-  -webkit-animation: fadeIn ease 6s;
-  -moz-animation: fadeIn ease 6s;
-  -o-animation: fadeIn ease 6s;
-  -ms-animation: fadeIn ease 6s;
-}
-
-.artwork {
-  display: flex;
-  flex-direction: column;
-  padding: 30px 0px 30px 0px;
-  justify-content: space-around;
-  background-image: url('https://i.imgur.com/5UJcfuc.jpg');
-  background-size: cover;
-}
-
-.artwork-button {
-  font-size: 20px !important;
-  position: absolute;
-  height: 44px;
-  width: 135px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .banner {
   background-color: black;
   color: white;
@@ -94,12 +66,11 @@
   border-radius: 10px;
   height: 621;
   width: 510px;
-  animation: fadeIn ease 3s;
-  animation-delay: 10s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 
 .bio:hover {
@@ -124,7 +95,7 @@
   height: 73px;
   width: 200px;
   top: 50%;
-  left: 118%;
+  left: 50%;
   transform: translate(-50%, -50%);
 
 }
@@ -172,9 +143,16 @@
 }
 
 #github {
-  margin: 0px 0px 0px 0px;
-  height: 46px;
-  width: 50px;
+  margin: 1px 0px 0px 0px;
+  height: 47px;
+  width: 48px;
+  cursor: pointer;
+}
+
+#github-two {
+  margin: 24px 0px 0px 0px;
+  height: 77px;
+  width: 81px;
   cursor: pointer;
 }
 
@@ -190,7 +168,7 @@
 
 .my-card {
   background-color: black;
-  width: 400px;
+  width: 402px !important;
 }
 
 .my-card:hover {
@@ -218,8 +196,9 @@
 }
 
 .projects {
-  background-image: url('https://i.imgur.com/5UJcfuc.jpg');
-  background-position-y: center;
+  background-image: url(https://i.imgur.com/Pxs8zPA.jpeg);
+  background-position-y: -588px;
+  background-size: 1905px;
   padding: 3px;
 }
 
@@ -238,6 +217,11 @@
   margin: 5px 0px 0px 92px;
   height: 175px;
   width: 694px;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 #project-description:hover {
   background-color: rgb(243, 243, 243);
@@ -246,6 +230,12 @@
 #project-gif {
   border-radius: 10px !important;
   height: 185px;
+  max-width: 186px;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
 }
 
 .project-links {
@@ -255,6 +245,11 @@
   width: 450px;
   display: flex;
   justify-content: space-around;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
 }
 .project-links:hover {
   background-color: rgb(243, 243, 243);
@@ -266,6 +261,11 @@
   height: 90px;
   width: 278px;
   margin: 44px 77px 8px 8px;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
 }
 
 #project-title:hover {

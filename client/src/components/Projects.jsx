@@ -1,22 +1,28 @@
 import React, { useState } from 'react'; 
 import Project from './Project.jsx';
+import quistory from './images/quistory.gif';
+import related from './images/RI.gif';
+import coming  from './images/coming.gif';
 
 function Projects(props) {
   return (
     <div className="projects">
         <Project 
+          gif={related}
           github="https://github.com/kwrnFec/related_items_module"
           youtube="https://www.youtube.com/watch?v=xj7kOZeVqQw"
           title="Cart Micro-service"
           description="One of the first major projects I undertook as a software developer was a microservice for an e-commerce website using the Greenfield API. I worked with a team of others to create a cohesive layout which enabled shoppers to add and remove items to a cart, compare their features and prices, and view their outfit and its images in greater detail. Our team worked within the limitations given to us by the business' requirements and produced an exceptional product."
         />
         <Project 
+          gif={quistory}
           github="https://github.com/richard-d-lee/ABetterQuiz"
           youtube="https://youtu.be/nsaFjZtRW14"
           title="Quistory"
-          description="Quistory is a personal passion project which has helped me to learn much about the rest of the world - and will one day hopefully guide others to do the same. I have always been eager to learn about the world and so I used MongoDB and React to create a place for people to learn about any country that they wish. This work in progress will have achievements, leaderboards, forums, and many other features to help users accelerate their geo-history whichever way is best for them."
+          description="Quistory is a personal passion project which has helped me to learn much about the rest of the world - and will one day hopefully guide others to do the same. I have always been eager to learn about any and all countries so I used MongoDB and React to create a place for people to learn about any country that they wish. This work in progress will have achievements, leaderboards, forums, and many other features to help users accelerate their geo-history whichever way is best for them."
         />
         <Project 
+          gif={coming}
           github="https://github.com/richard-d-lee/LeeGamingAndMedia"
           youtube="https://www.youtube.com/channel/UC4kA1ilL7qGJkSfx7RCDQsQ"
           title="Lee Gaming and Media"

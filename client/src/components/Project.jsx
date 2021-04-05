@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import gif from './images/giphy.gif';
 import youtube from './images/youtube.png';
-import github from './images/github.png'
+import github from './images/github.png';
 
 function Project(props) {
     return (
@@ -14,7 +13,7 @@ function Project(props) {
                         </center>
                     </p>
                 </div>
-                <img id="project-gif" src={gif}></img>
+                <img id="project-gif" src={props.gif}></img>
                 <div id="my-description">
                     <center>
                         <label id="project-description">{props.description}</label>
@@ -25,7 +24,7 @@ function Project(props) {
                         <img id='youtube' src={youtube} />
                     </a>
                     <a target="_blank" rel="noopener noreferrer" href={props.github}>
-                        <img id='github' src={github} />
+                        <img id='github-two' src={github} />
                     </a>
                 </div>
             </div>
