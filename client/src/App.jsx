@@ -14,15 +14,18 @@ class App extends React.Component {
     this.aboutHandler = this.aboutHandler.bind(this)
     this.returnHome = this.returnHome.bind(this)
     this.projectsHandler = this.projectsHandler.bind(this)
-    this.artworkHandler = this.artworkHandler.bind(this)
-    this.digitalHandler = this.digitalHandler.bind(this)
+    this.lgmHandler = this.lgmHandler.bind(this)
+    this.relatedHandler = this.relatedHandler.bind(this)
+    this.quistoryHandler = this.quistoryHandler.bind(this)
+
   }
 
   aboutHandler() { this.setState({ page: 'about' }) }
   projectsHandler() { this.setState({ page: 'projects' }) }
   returnHome() { this.setState({ page: 'landing' }) }
-  artworkHandler() { this.setState({ page: 'artwork' }) }
-  digitalHandler() { this.setState({ page: 'digital' }) }
+  lgmHandler() { this.setState({ page: 'lgm' }) }
+  relatedHandler() { this.setState({ page: 'related' }) }
+  quistoryHandler() { this.setState({ page: 'quistory' }) }
 
   render() {
     return (
@@ -32,9 +35,10 @@ class App extends React.Component {
           <Landing
             about={this.aboutHandler}
             projects={this.projectsHandler}
-            artwork={this.artworkHandler}
+            lgm={this.lgmHandler}
             page={this.state.page}
-            digital={this.digitalHandler}
+            related={this.relatedHandler}
+            quistory={this.quistoryHandler}
           />
         </center>
         <div className="res-and-foot">

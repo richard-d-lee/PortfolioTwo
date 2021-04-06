@@ -1,10 +1,11 @@
 .about {
+  background-size: 1920px;
+  background-position-y: -130px;
   display: flex;
+  height: 906px;
   flex-direction: row;
-  justify-content: space-around;
-  background-image: url('https://i.imgur.com/5UJcfuc.jpg');
-  background-position-y: -1174px;
-  background-size: cover;
+  justify-content: center;
+  padding: 5px 0px 4px 0px;
 }
 .about-card {
   animation: fadeIn ease 2s;
@@ -60,10 +61,10 @@
 }
 
 .bio {
-  margin: 45px 0px 45px 0px;
+  margin: 22px 14px 0px 0px;
   background-color: white;
   border-radius: 10px;
-  height: 621;
+  height: fit-content;
   width: 510px;
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
@@ -99,7 +100,7 @@
 
 }
 .carousel {
-  margin: 25px 0px 20px 0px;
+  margin: 87px 0px 20px 0px;
   height: 445;
   width: 334px;
   animation: fadeIn ease 1.5s;
@@ -139,6 +140,20 @@
   padding: 64px 0px 65px 0px;
 }
 
+.full-project {
+  background-size: 1920px;
+  background-position-y: -130px;
+  height: 781px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gif-and-return {
+  display: flex;
+  flex-direction: row;
+}
+
 #github {
   margin: 1px 0px 0px 0px;
   height: 47px;
@@ -153,14 +168,44 @@
   cursor: pointer;
 }
 
-.landing {
-  background-image: url('https://i.imgur.com/uOu3ANe.jpeg');
-  background-size: cover;
-  background-position-y: -130px;
+.label-and-gif {
   display: flex;
   flex-direction: row;
+}
+
+.landing {
+  background-size: 1920px;
+  background-position-y: -130px;
+  display: flex;
+  height: 906px;
+  flex-direction: row;
   justify-content: center;
-  padding: 5px 0px 4px 0px;
+  padding: 50px 0px 4px 0px;
+}
+
+#last-project-gif {
+  border-radius: 10px !important;
+  height: 210px;
+  max-width: 210px;
+  margin: 0px 165px 165px 0px;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+#last-one-project-title {
+  background-color: white;
+  height: fit-content;
+  border-radius: 50px;
+  margin: 48px 0px 0px 0px;
+  animation: fadeIn ease 2.5s;
+  -webkit-animation: fadeIn ease 2.5s;
+  -moz-animation: fadeIn ease 2.5s;
+  -o-animation: fadeIn ease 2.5s;
+  -ms-animation: fadeIn ease 2.5s;
+  cursor: pointer;
 }
 
 .my-card {
@@ -187,17 +232,35 @@
   margin: 27.2px;
 }
 
+#one-project-title {
+  background-color: white;
+  border-radius: 50px;
+  max-height: 125px;
+  margin: 0px 30px 0px 30px;
+  min-width: 173px;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  cursor: pointer;
+}
+
 .project {
-  padding: 12px;
+  height: 781px;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .projects {
-  background-image: url(https://i.imgur.com/Pxs8zPA.jpeg);
-  background-position-y: -588px;
-  background-size: 1905px;
-  padding: 5git px;
+  background-size: 1920px;
+  background-position-y: -130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 781px;
+  padding-top: 30px;
 }
 
 .project-card {
@@ -211,46 +274,47 @@
 #project-description {
   background-color: white;
   border-radius: 10px;
-  padding: 17px;
-  margin: 5px 0px 0px 92px;
-  height: 169px;
-  width: 694px;
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
+  padding: 13px;
+  height: fit-content;
+  width: fit-content;
+  animation: fadeIn ease 1.5s;
+  -webkit-animation: fadeIn ease 1.5s;
+  -moz-animation: fadeIn ease 1.5s;
+  -o-animation: fadeIn ease 1.5s;
+  -ms-animation: fadeIn ease 1.5s;
 }
+
 #project-description:hover {
   background-color: rgb(243, 243, 243);
 }
 
 #project-gif {
   border-radius: 10px !important;
-  height: 150px;
-  max-width: 150px;
+  height: 210px;
+  max-width: 210px;
   margin: 15px 0px 0px 0px;
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
+  cursor: pointer;
 }
 
 .project-links {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  margin: 40px 0px 40px 37px;
+  margin: 40px 26px 40px 37px;
   width: auto;
   max-width: 215px;
   max-height: 200px;
   display: flex;
   justify-content: space-around;
-  animation: fadeIn ease 4s;
-  -webkit-animation: fadeIn ease 4s;
-  -moz-animation: fadeIn ease 4s;
-  -o-animation: fadeIn ease 4s;
-  -ms-animation: fadeIn ease 4s;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
 }
 .project-links:hover {
   background-color: rgb(243, 243, 243);
@@ -258,16 +322,17 @@
 
 #project-title {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 50px;
   max-height: 125px;
-  width: 278px;
+  width: 250px;
   height: min-content;
-  margin: 44px 77px 8px 8px;
+  margin: 74px 77px 8px 8px;
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
   -moz-animation: fadeIn ease 1s;
   -o-animation: fadeIn ease 1s;
   -ms-animation: fadeIn ease 1s;
+  cursor: pointer;
 }
 
 #project-title:hover {
@@ -275,7 +340,7 @@
 }
 
 #project-title-text {
-  margin: 10px 10px 6px 10px;
+  margin: 30px 10px 30px 10px;
   font-size: 23px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }

@@ -56,7 +56,7 @@ function About(props) {
         <div className="sites">
           <div id="sites-text">
             <center>
-              <label>A few of my favorite websites.</label>
+              <label>A few of my favorite websites:</label>
             </center>
           </div>
           <div id="sites-buttons">
@@ -75,7 +75,7 @@ function About(props) {
       <div className="bio">
         <p id="bio-text">
           <center>
-            If talking about yourself is tacky, what does that say for someone who creates a website about themself?
+            If talking about yourself is tacky, then what of creating a website about yourself?
           </center>
           <br />
           <center>
