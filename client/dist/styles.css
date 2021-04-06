@@ -3,6 +3,7 @@
   background-position-y: -120px;
   display: flex;
   height: auto;
+  min-height: 900px;
   flex-direction: row;
   justify-content: center;
   overflow: scroll;
@@ -14,10 +15,6 @@
   -moz-animation: fadeIn ease 2s;
   -o-animation: fadeIn ease 2s;
   -ms-animation: fadeIn ease 2s;
-}
-
-.about-left {
-  overflow: scroll;
 }
 
 @keyframes fadeIn {
@@ -50,7 +47,7 @@
   color: white;
   height: 63px;
   position: absolute;
-  width: 1440px;
+  width: 100%;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   display: flex;
@@ -74,7 +71,7 @@
   background-color: white;
   border-radius: 10px;
   max-height: 561px;
-  overflow: scroll;
+  overflow: auto;
   width: 510px;
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
@@ -190,6 +187,7 @@
   overflow: hidden;
   border-top: 10px solid white;
   height: auto;
+  min-height: 900px;
   flex-direction: row;
   justify-content: center;
   padding: 50px 0px 4px 0px;
@@ -272,6 +270,7 @@
   min-height: 780px;
   background-position-y: -130px;
   display: flex;
+  min-height: 900px;
   flex-direction: column;
   align-items: center;
   height: auto;
