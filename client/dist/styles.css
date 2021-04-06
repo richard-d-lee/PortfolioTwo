@@ -1,8 +1,8 @@
 .about {
   background-size: 1920px;
-  background-position-y: -130px;
+  background-position-y: -120px;
   display: flex;
-  height: 906px;
+  height: auto;
   flex-direction: row;
   justify-content: center;
   padding: 5px 0px 4px 0px;
@@ -67,7 +67,7 @@
   margin: 84px 14px 0px 0px;
   background-color: white;
   border-radius: 10px;
-  max-height: 663px;
+  max-height: 561px;
   overflow: scroll;
   width: 510px;
   animation: fadeIn ease 2s;
@@ -146,7 +146,7 @@
 
 .full-project {
   background-size: 1920px;
-  background-position-y: -130px;
+  background-position-y: -120px;
   height: 845px;
   display: flex;
   flex-direction: column;
@@ -182,7 +182,8 @@
   background-position-y: -130px;
   display: flex;
   overflow: hidden;
-  height: 906px;
+  border-top: 10px solid white;
+  height: auto;
   flex-direction: row;
   justify-content: center;
   padding: 50px 0px 4px 0px;
@@ -252,20 +253,24 @@
 }
 
 .project {
-  height: 845px;
+  height: auto;
+  border-top: 10px solid white;
   display: flex;
+  padding-top: 100px;
   flex-direction: row;
   align-items: center;
 }
 
 .projects {
   background-size: 1920px;
+  min-height: 780px;
   background-position-y: -130px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 845px;
-  padding-top: 90px;
+  height: auto;
+  border-top: 10px solid white;
+  padding-top: 70px;
 }
 
 .project-card {
@@ -295,8 +300,8 @@
 
 #project-gif {
   border-radius: 10px !important;
-  height: 210px;
-  max-width: 210px;
+  height: 160px;
+  max-width: 160px;
   margin: 15px 0px 0px 0px;
   cursor: pointer;
 }
@@ -326,7 +331,7 @@
   max-height: 125px;
   width: 250px;
   height: min-content;
-  margin: 74px 77px 8px 8px;
+  margin: 60px 77px 8px 8px;
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
   -moz-animation: fadeIn ease 1s;
@@ -340,7 +345,7 @@
 }
 
 #project-title-text {
-  margin: 30px 10px 30px 10px;
+  margin: 20px 10px 20px 10px;
   font-size: 23px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
