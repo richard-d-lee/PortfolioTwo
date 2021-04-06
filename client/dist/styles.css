@@ -67,7 +67,8 @@
   margin: 84px 14px 0px 0px;
   background-color: white;
   border-radius: 10px;
-  height: fit-content;
+  max-height: 663px;
+  overflow: scroll;
   width: 510px;
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
@@ -146,7 +147,7 @@
 .full-project {
   background-size: 1920px;
   background-position-y: -130px;
-  height: 781px;
+  height: 845px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,7 +252,7 @@
 }
 
 .project {
-  height: 781px;
+  height: 845px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -263,8 +264,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 781px;
-  padding-top: 30px;
+  height: 845px;
+  padding-top: 90px;
 }
 
 .project-card {
