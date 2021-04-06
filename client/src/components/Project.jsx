@@ -29,7 +29,6 @@ function Project(props) {
                 </div>
             </div>
             <div className="gif-and-return">
-                <img id="last-project-gif" src={props.gif}></img>
                 <div id="last-one-project-title" onClick={props.return}>
                     <p id="project-title-text">
                         <center>
@@ -37,6 +36,7 @@ function Project(props) {
                         </center>
                     </p>
                 </div>
+                <img id="last-project-gif" src={props.gif}></img>
             </div>
         </ div>
     )
