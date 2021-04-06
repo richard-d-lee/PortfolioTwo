@@ -7,6 +7,7 @@ import duo from './images/duo.png';
 import reddit from './images/reddit.png';
 import github from './images/github.png';
 import background from './images/background.jpg'
+//comment for final push
 
 function About(props) {
   return (
