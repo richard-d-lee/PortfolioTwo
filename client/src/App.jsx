@@ -28,15 +28,19 @@ class App extends React.Component {
     return (
       <div id='full-app'>
         <Banner return={this.returnHome} />
-        <Landing
-          about={this.aboutHandler}
-          projects={this.projectsHandler}
-          artwork={this.artworkHandler}
-          page={this.state.page}
-          digital={this.digitalHandler}
-        />
-        <Resume />
-        <Footer />
+        <center>
+          <Landing
+            about={this.aboutHandler}
+            projects={this.projectsHandler}
+            artwork={this.artworkHandler}
+            page={this.state.page}
+            digital={this.digitalHandler}
+          />
+        </center>
+        <div className="res-and-foot">
+          <Resume />
+          <Footer />
+        </div>
       </div>
     );
   }

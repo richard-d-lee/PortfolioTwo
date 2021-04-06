@@ -78,7 +78,7 @@ function About(props) {
           </center>
           <br />
           <center>
-            
+
             Anyway, My name is Richard Lee, but my friends and family call me Buz. I am a full stack Javascript developer, occasional artist, and reluctant media producer. I love developing accessible web applications and making content which reflects my desire to bring people together. I have many goals as an engineer and can always use an extra eye on my progress. I'm always happy to help and receive help.
           </center>
           <br />

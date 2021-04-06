@@ -42,11 +42,10 @@
   background-color: black;
   color: white;
   height: 63px;
-  padding-left: 15px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   display: flex;
-  font-size: xx-large;
+  font-size: 27px;
   padding: 5px 23px 0px 7px;
   justify-content: space-between;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -100,7 +99,7 @@
 
 }
 .carousel {
-  margin: 46px 0px 20px 0px;
+  margin: 25px 0px 20px 0px;
   height: 445;
   width: 334px;
   animation: fadeIn ease 1.5s;
@@ -111,35 +110,28 @@
 }
 
 .d-block {
-  height: 493;
-  width: 100px !important;
+  height: 424;
 }
 #duo {
-  margin: 15px 0px 10px 21px;
+  margin: 15px 0px 10px 0px;
   height: 60px;
   width: 60px;
   cursor: pointer;
 }
 
 .footer {
-  background-color: black;
+  background-color: #333333;
   color: white;
-  padding: 48px 0px 25px 0px;
+  padding: 12px 0px 9px 0px;
   display: flex;
   flex-direction: column;
-}
-
-.footer:hover {
-  background-color: white;
-  color: black;
-  padding-top: 47px;
-  border-bottom: solid 1px black;
+  justify-content: space-between;
 }
 
 .full-card {
   margin: 30px;
-  width: 36%;
-  padding: 80px 0px 79px 0px;
+  width: auto;
+  padding: 64px 0px 65px 0px;
 }
 
 #github {
@@ -150,9 +142,9 @@
 }
 
 #github-two {
-  margin: 24px 0px 0px 0px;
-  height: 77px;
-  width: 81px;
+  margin: 22px 17px 0px 19px;
+  height: 57px;
+  width: 61px;
   cursor: pointer;
 }
 
@@ -160,10 +152,10 @@
   background-image: url('https://i.imgur.com/uOu3ANe.jpeg');
   background-size: cover;
   background-position-y: -130px;
-  padding: 0px 20% 0px 13.6%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 5px 0px 4px 0px;
 }
 
 .my-card {
@@ -182,6 +174,7 @@
 }
 
 #name {
+  margin-top: 6px;
   cursor: pointer;
 }
 
@@ -190,7 +183,7 @@
 }
 
 .project {
-  margin: 15px;
+  margin: 17px;
   display: flex;
   flex-direction: row;
 }
@@ -199,7 +192,7 @@
   background-image: url(https://i.imgur.com/Pxs8zPA.jpeg);
   background-position-y: -588px;
   background-size: 1905px;
-  padding: 3px;
+  padding: 5px;
 }
 
 .project-card {
@@ -215,7 +208,7 @@
   border-radius: 10px;
   padding: 17px;
   margin: 5px 0px 0px 92px;
-  height: 175px;
+  height: 169px;
   width: 694px;
   animation: fadeIn ease 3s;
   -webkit-animation: fadeIn ease 3s;
@@ -229,8 +222,9 @@
 
 #project-gif {
   border-radius: 10px !important;
-  height: 185px;
-  max-width: 186px;
+  height: 150px;
+  max-width: 150px;
+  margin: 15px 0px 0px 0px;
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
   -moz-animation: fadeIn ease 2s;
@@ -241,8 +235,10 @@
 .project-links {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  margin: 30px 0px 30px 52px;
-  width: 450px;
+  margin: 40px 0px 40px 37px;
+  width: auto;
+  max-width: 215px;
+  max-height: 200px;
   display: flex;
   justify-content: space-around;
   animation: fadeIn ease 4s;
@@ -258,8 +254,9 @@
 #project-title {
   background-color: white;
   border-radius: 10px;
-  height: 90px;
+  max-height: 125px;
   width: 278px;
+  height: min-content;
   margin: 44px 77px 8px 8px;
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
@@ -273,7 +270,7 @@
 }
 
 #project-title-text {
-  margin: 29px 20px 20px 20px;
+  margin: 10px 10px 6px 10px;
   font-size: 23px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -286,12 +283,24 @@
 }
 
 .resume {
-  padding-top: 30px;
+  padding-top: 42px;
   padding-bottom: 30px;
   background-color: #333333;
+  color: white;
+}
+
+.res-and-foot {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
-  color: white;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: -9px !important;
+}
+
+label {
+  margin: 0px;
 }
 
 .sites {
@@ -343,7 +352,7 @@
 
 #youtube {
   margin: 24px 0px 10px 21px;
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   cursor: pointer;
 }
