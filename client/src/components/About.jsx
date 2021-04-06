@@ -6,10 +6,11 @@ import imageThree from './images/Food.jpg';
 import duo from './images/duo.png';
 import reddit from './images/reddit.png';
 import github from './images/github.png';
+import background from './images/background.jpg'
 
 function About(props) {
   return (
-    <div className="about">
+    <div className="about" style={{'backgroundImage': `url(${background})`}}>
       <div className="about-left">
         <center>
           <div className="carousel">

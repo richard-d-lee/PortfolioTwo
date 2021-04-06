@@ -7,7 +7,7 @@ function Banner(props) {
         <label id="name" onClick={props.return}>Richard Lee | Denver, CO </label>
       </center>
       <center>
-        <label id="name" onClick={props.return}>Open to remote work or relocation.</label>
+        <label id="name" onClick={props.return}>Open to relocation!</label>
       </center>
     </div>
   )

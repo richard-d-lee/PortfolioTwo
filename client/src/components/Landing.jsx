@@ -3,7 +3,8 @@ import MyCard from './MyCard.jsx';
 import About from './About.jsx';
 import Projects from './Projects.jsx';
 import gif from './images/giphy.gif';
-import JB from './images/JB.gif'
+import JB from './images/JB.gif';
+import background from './images/background.jpg'
 
 function Landing(props) {
   if (props.page === 'about') {
@@ -14,7 +15,7 @@ function Landing(props) {
     return <Artwork digital={props.digital} page={props.page}/>
   } else if (props.page === 'landing') {
     return (
-      <div className="landing">
+      <div className="landing" style={{'backgroundImage': `url(${background})`}}>
         <div className="about-card">
           <MyCard gif={JB} link="About Me" handler={props.about} />
         </div>

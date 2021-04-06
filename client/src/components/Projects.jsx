@@ -1,34 +1,37 @@
-import React, { useState } from 'react'; 
+import React, { useState } from 'react';
 import Project from './Project.jsx';
 import quistory from './images/quistory.gif';
 import related from './images/RI.gif';
-import coming  from './images/coming.gif';
+import coming from './images/coming.gif';
+import background from './images/background.jpg'
 
 function Projects(props) {
   return (
-    <div className="projects">
-        <Project 
+    <center>
+      <div className="projects" style={{ 'backgroundImage': `url(${background})` }}>
+        <Project
           gif={related}
           github="https://github.com/kwrnFec/related_items_module"
           youtube="https://www.youtube.com/watch?v=xj7kOZeVqQw"
           title="Cart Micro-service"
           description="One of the first major projects I undertook as a software developer was a microservice for an e-commerce website using the Greenfield API. I worked with a team of others to create a cohesive layout which enabled shoppers to add and remove items to a cart, compare their features and prices, and view their outfit and its images in greater detail. Our team worked within the limitations given to us by the business' requirements and produced an exceptional product."
         />
-        <Project 
+        <Project
           gif={quistory}
           github="https://github.com/richard-d-lee/ABetterQuiz"
           youtube="https://youtu.be/nsaFjZtRW14"
           title="Quistory"
           description="Quistory is a personal passion project which has helped me to learn much about the rest of the world - and will one day hopefully guide others to do the same. I have always been eager to learn about any and all countries so I used MongoDB and React to create a place for people to learn about any country that they wish. This work in progress will have achievements, leaderboards, forums, and many other features to help users accelerate their geo-history whichever way is best for them."
         />
-        <Project 
+        <Project
           gif={coming}
           github="https://github.com/richard-d-lee/LeeGamingAndMedia"
           youtube="https://www.youtube.com/channel/UC4kA1ilL7qGJkSfx7RCDQsQ"
-          title="Lee Gaming and Media"
+          title="Lee Media Inc"
           description="My current main focus (after I launch this portfolio) is building a website which will serve as a central hub for all of my media and artistic endeavors. I have many passions and shuffling between YouTube, SoundCloud, Imgur, and social media sites is not my ideal method of exposing my art to the world. Bootstrap and MongoDB are helping me to build a wide variety of user features and a fun, safe environment for others to discuss and learn about the things which motivate us together."
         />
-    </ div>
+      </ div>
+    </center>
   )
 }
 

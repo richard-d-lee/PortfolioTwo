@@ -2,9 +2,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-image: url('https://i.imgur.com/5UJcfuc.jpg');
-  background-position-y: -1174px;
   background-size: cover;
+  background-position-y: -174px;
+  background-size: cover;
+  min-height: 798px;
 }
 .about-card {
   animation: fadeIn ease 2s;
@@ -63,6 +64,7 @@
   margin: 45px 0px 45px 0px;
   background-color: white;
   border-radius: 10px;
+  max-height: 529px;
   height: 621;
   width: 510px;
   animation: fadeIn ease 2s;
@@ -128,6 +130,10 @@
   justify-content: space-between;
 }
 
+#full-app {
+  overflow: hidden;
+}
+
 .full-card {
   margin: 30px;
   width: auto;
@@ -149,13 +155,13 @@
 }
 
 .landing {
-  background-image: url('https://i.imgur.com/uOu3ANe.jpeg');
   background-size: cover;
-  background-position-y: -130px;
+  background-position-y: -174px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding: 5px 0px 4px 0px;
+  min-height: 798px;
 }
 
 .my-card {
@@ -189,10 +195,11 @@
 }
 
 .projects {
-  background-image: url(https://i.imgur.com/Pxs8zPA.jpeg);
-  background-position-y: -588px;
-  background-size: 1905px;
+  background-size: cover;
+  background-position-y: -174px;
   padding: 5px;
+  min-height: 798px;
+  overflow: auto;
 }
 
 .project-card {
