@@ -5,7 +5,7 @@
   height: 844px;
   flex-direction: row;
   justify-content: center;
-  overflow: scroll;
+  overflow: auto;
   padding: 5px 0px 4px 0px;
 }
 .about-card {
