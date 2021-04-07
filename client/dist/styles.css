@@ -2,7 +2,7 @@
   background-size: 1920px;
   background-position-y: -120px;
   display: flex;
-  height: auto;
+  height: 844px;
   flex-direction: row;
   justify-content: center;
   overflow: scroll;
@@ -46,7 +46,7 @@
   color: white;
   height: 63px;
   position: absolute;
-  width: 1440px;
+  width: -webkit-fill-available;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   display: flex;
@@ -185,7 +185,7 @@
   display: flex;
   overflow: hidden;
   border-top: 10px solid white;
-  height: auto;
+  height: 844px;
   flex-direction: row;
   justify-content: center;
   padding: 50px 0px 4px 0px;
@@ -270,7 +270,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
+  height: 844px;
   border-top: 10px solid white;
   padding-top: 70px;
 }
