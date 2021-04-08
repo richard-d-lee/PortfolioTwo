@@ -205,7 +205,7 @@
 
 #last-one-project-title {
   background-color: white;
-  height: fit-content;
+  height: min-content;
   border-radius: 50px;
   margin: 48px 0px 0px 0px;
   animation: fadeIn ease 2.5s;
